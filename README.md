@@ -1,16 +1,40 @@
-# smartpack
+# SmartPack  
+Aplikasi Ceklis Barang Perjalanan Berbasis Flutter
 
-A new Flutter project.
+SmartPack adalah aplikasi mobile berbasis Flutter yang membantu pengguna dalam mengatur dan mempersiapkan barang-barang yang perlu dibawa sebelum melakukan perjalanan.
 
-## Getting Started
+Aplikasi ini dikembangkan menggunakan Flutter dan database lokal SQLite sebagai bagian dari tugas AAS Praktikum Pemrograman Perangkat Bergerak.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🎯 Tujuan Aplikasi
+Membantu pengguna:
+- Mengelola data perjalanan (trip)
+- Menyusun daftar barang yang perlu dibawa
+- Memantau progres packing agar tidak ada barang yang tertinggal
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Fitur Utama
+- Login pengguna
+- Manajemen perjalanan (Trip)
+- Checklist barang per trip
+- Progress packing (indikator persentase)
+- Template checklist otomatis berdasarkan jenis perjalanan
+- Pencarian trip
+- Logout akun
+
+---
+
+## 🗄️ Teknologi yang Digunakan
+- Flutter (UI dan logic)
+- SQLite (penyimpanan data lokal)
+- Sqflite package
+
+---
+
+## ▶️ Cara Menjalankan Aplikasi
+
+1. Clone repository:
+```bash
+git clone https://github.com/rizkafatikarani/SmartPack.git
